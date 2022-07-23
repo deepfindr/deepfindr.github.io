@@ -2,14 +2,14 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Elements'
-      url: '/elements/'
+    - title: 'Videos'
+      url: '/videos/'
     - title: 'About'
       url: '/about/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'Legal Notice'
+      url: '/legal_notice/'
+    - title: 'Data & Privacy'
+      url: '/data_privacy/'
 
 copyright_text_html: >-
-  <p> 2021 &copy; <a href="/">Vonge</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
+  <p> 2022 &copy; <a href="/">DeepFindr</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>

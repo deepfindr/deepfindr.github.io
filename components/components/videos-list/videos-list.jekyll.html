@@ -1,0 +1,9 @@
+{% if include.show_videos %}
+<div class="container animate">
+  <div class="row">
+    {% for video in site.videos reversed %}
+      {% bookshop video-card video=video %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

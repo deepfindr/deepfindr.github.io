@@ -1,4 +1,4 @@
-title: Vonge
+title: DeepFindr
 
 plugins:
   - jekyll-bookshop
@@ -31,9 +31,9 @@ collections:
   pages:
     output: true
     permalink: /:title/
-  projects:
+  videos:
     output: true
-    permalink: /project/:slug
+    permalink: /videos/:slug
   testimonials:
     output: false
   posts:
@@ -44,7 +44,7 @@ cloudcannon:
   collections:
     pages:
       _icon: 'wysiwyg'
-    projects:
+    videos:
       _icon: 'work_outline'
       _subtext_key: subtitle
     testimonials:
@@ -57,7 +57,7 @@ _collection_groups:
   - heading: Content
     collections:
       - pages
-      - projects
+      - videos
       - testimonials
   - heading: Blogging
     collections:
@@ -78,9 +78,9 @@ defaults:
     values:
       permalink: /
   - scope:
-      type: projects
+      type: videos
     values:
-      layout: project
+      layout: video
   - scope:
       type: posts
     values:

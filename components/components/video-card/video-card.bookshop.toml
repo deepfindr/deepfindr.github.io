@@ -1,0 +1,12 @@
+[component]
+structures = []
+label = "Video Card"
+description = "Video card used for video lists"
+icon = "wysiwyg"
+tags = []
+
+[props.video]
+title = "Hello World"
+subtitle = "Lorem Ipsum"
+image = "https://placekitten.com/800/400"
+url = "/"

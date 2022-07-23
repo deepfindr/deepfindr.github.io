@@ -46,4 +46,6 @@ Run the website:
 
 ~~~bash
 $ npm start
+
+bundle exec jekyll serve --watch --trace
 ~~~

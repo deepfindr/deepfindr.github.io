@@ -6,11 +6,11 @@ icon = "wysiwyg"
 tags = ["Structure", "Text", "Links"]
 
 [props]
-title = "Hi there, I am Vanessa Marley"
-description_html = "<strong>Photographer</strong> and <strong>Visual Content Strategist</strong> from Albany. I work as a lifestyle, product, and landscape photographer, creating images for a diverse range of requests, from online media to printed artwork."
-image = "/images/01.jpg"
-image_alt = "Vanessa Marley's picture"
+title = "Hi there!"
+description_html = "<strong>Data Science Enthusiast</strong> and <strong>Programming Lover</strong>. I share my learnings in short YouTube videos, covering various topics like Explainable AI,  Graph Neural Networks, Generative Deep Learning, ML Ops, Computer Vision or Uncertainty Estimation."
+image = "/images/deepfindr_logo.png"
+image_alt = "DeepFindr logo"
 cta_button = "Get in touch"
 cta_button_link = "#contact"
-works_button = "See my works"
-works_button_link = "#projects"
+works_button = "See my videos"
+works_button_link = "#videos"

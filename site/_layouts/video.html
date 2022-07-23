@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  {% bookshop page-heading title=page.title description=page.subtitle date=page.date %}
+
+  <div class="page animate">
+    {{ content }}
+    <div class="videoWrapper">
+      <iframe width="560" height="315" src="{{page.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  {% if page.previous.url %}
+  <div class="video__navigation animate">
+    <a class="video__prev" href="{{page.previous.url}}">
+      <div class="video__box">
+        <span class="video__nav__info">Next Video</span>
+          <h2 class="video__nav__title">{{page.previous.title}}<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
+      </div>
+    </a>
+  </div>
+  {% endif %}
+
+</div>
