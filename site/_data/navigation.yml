@@ -1,4 +1,4 @@
-logo_image: '/images/logo.svg' 
+logo_image: '/images/logo_text.svg' 
 
 menu__settings:
   menu__items:
@@ -12,4 +12,8 @@ menu__settings:
       url: '/contact/'
     - title: 'About'
       url: '/about/'
+
+
+
+
     

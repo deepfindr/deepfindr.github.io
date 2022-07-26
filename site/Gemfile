@@ -7,7 +7,5 @@ group :jekyll_plugins do
   gem 'jekyll-tagging'
   gem "jekyll-sitemap"
   gem "jekyll-pagebreak", "~> 0.3"
+  gem "webrick"
 end
-
-gem "github-pages", "~> 227", group: :jekyll_plugins
-gem "webrick", "~> 1.7"

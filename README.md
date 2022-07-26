@@ -45,7 +45,6 @@ $ npm run install-jekyll
 Run the website:
 
 ~~~bash
-$ npm start
-
-bundle exec jekyll serve --watch --trace
+$ bundle exec jekyll build
+$ bundle exec jekyll serve
 ~~~
