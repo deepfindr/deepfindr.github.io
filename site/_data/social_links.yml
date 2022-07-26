@@ -1,9 +1,0 @@
-#-------------------------------
-# Social Links
-# Example of adding a new link to the footer - {icon: "ion-logo-facebook", link: "https://facebook.com"}
-# Other icons can be found at https://ionicons.com/v4/
-social:
-- {icon: "Youtube", link: "https://www.youtube.com/c/DeepFindr"}
-- {icon: "Github", link: "https://github.com/deepfindr"}
-- {icon: "Cafe", link: "https://ko-fi.com/deepfindr"}
-- {icon: "heart-empty", link: "https://www.patreon.com/deepfindr"}

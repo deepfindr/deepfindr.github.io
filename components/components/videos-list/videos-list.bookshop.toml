@@ -1,9 +1,0 @@
-[component]
-structures = [ "content_blocks" ]
-label = "Videos List"
-description = "Lists all of the site's videos"
-icon = "wysiwyg"
-tags = ["Collections"]
-
-[props]
-show_videos = true
